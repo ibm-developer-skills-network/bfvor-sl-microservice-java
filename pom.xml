@@ -17,6 +17,7 @@
 
     <modules>
       <module>crud</module> 
+      <module>graphql_example</module>
     </modules>
 
     <properties>
@@ -37,6 +38,11 @@
         <dependency>
                 <groupId>com.hello</groupId>
                 <artifactId>crud</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+             <dependency>
+                <groupId>com.hello</groupId>
+                <artifactId>graphql_example</artifactId>
                 <version>${project.version}</version>
             </dependency>
       </dependencies> 
